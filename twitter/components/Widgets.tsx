@@ -10,7 +10,7 @@ function Widgets() {
         <SearchIcon className="h-5 w-5" />
         <input type="text" placeholder="Search Twitter" className="bg-transparent outline-none flex-1"/>
     </div>
-    <TwitterTimelineEmbed sourceType="profile" screenName="sonnysangha" options={{height:400}} />
+    <TwitterTimelineEmbed sourceType="profile" screenName="sonnysangha" options={{height:1000}} />
     </div>
   )
 }
